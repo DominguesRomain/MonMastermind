@@ -1,5 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
 #pragma once
 
 #include "CoreMinimal.h"
@@ -8,9 +6,10 @@
 #include "MastermindRow.generated.h"
 
 UCLASS()
-class AIX_GD3_FILROUGE_API AMastermindRow : public AActor
+class MONMASTERMINF_API AMastermindRow : public AActor
 {
 	GENERATED_BODY()
+
 	
 public:	
 	// Sets default values for this actor's properties

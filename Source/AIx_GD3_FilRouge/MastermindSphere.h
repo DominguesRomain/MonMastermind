@@ -1,16 +1,12 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
 #pragma once
 
 #include "CoreMinimal.h"
-#include "MasterMindGM.h"
 #include "Components/ActorComponent.h"
 #include "Materials/MaterialInstanceDynamic.h"
 #include "MastermindSphere.generated.h"
 
-
-UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
-class AIX_GD3_FILROUGE_API UMastermindSphere : public UActorComponent
+UCLASS(ClassGroup = (Custom), meta = (BlueprintSpawnableComponent))
+class MONMASTERMINF_API UMastermindSphere : public UActorComponent
 {
 	GENERATED_BODY()
 
